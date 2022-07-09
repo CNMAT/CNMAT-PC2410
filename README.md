@@ -15,10 +15,10 @@ The circuit consists of a switchable 32, 20 & 12 dB passive H-pad to drop the si
 The files contained in this directory include all of the design files and gerbers for the circuit, PCB and enclosure.  As of this writing (June 2022) the main components are the following:
 
 
-XLR/TRS Jack:  Neutrik NCJFA-H combo jack
-RCA Jack: RCJ-2121
-Slide DP3T Switch: E•Switch 2315
-Transformer: Triad Magnetics TY-250P
+*XLR/TRS Jack:  Neutrik NCJFA-H combo jack
+*RCA Jack: RCJ-2121
+*Slide DP3T Switch: E•Switch 2315
+*Transformer: Triad Magnetics TY-250P
 
 
 All resistors are 1/4W unless otherwise specified.  Values are not included as of this writing (June 2022) pending changes during prototype fabrication, but will be chosen to provide the necessary padding of the signal while presenting a 600-720 ohm input impedance and good impedance matching to the transformer.  Given that variability in the transformer impedance will affect the pad circuit, resistors R5, R7 and R9 have been doubled in parallel to accommodate difficult to find resistor values. Theoretically, however, the following values should be in the ballpark:
